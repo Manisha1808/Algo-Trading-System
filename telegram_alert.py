@@ -2,9 +2,9 @@ from telegram import Bot
 import logging
 
 
-BOT_TOKEN = "Bot_token"
+BOT_TOKEN = "Bot_token_here"
 
-CHAT_ID = "chat_id"  
+CHAT_ID = "chat_id_here"  
 
 bot = Bot(token=BOT_TOKEN)
 
