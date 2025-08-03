@@ -9,8 +9,8 @@ import requests
 # Config
 SHEET_NAME = "Algo Trading Log"
 RESULTS_FOLDER = "backtest_results"
-TELEGRAM_TOKEN = "7925030609:AAEwQS8_N9F7iZteNildjyE4ja1N0zypfGI"
-TELEGRAM_CHAT_ID = "6167102552"
+TELEGRAM_TOKEN = "bot_token_here"
+TELEGRAM_CHAT_ID = "chat_id_here"
 
 # Logging setup
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -101,3 +101,4 @@ Total P&L: {round(total_pnl, 2)}"""
 
 if __name__ == "__main__":
     log_trades_to_sheet(RESULTS_FOLDER)
+
